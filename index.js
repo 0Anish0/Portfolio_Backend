@@ -1,7 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
-const emailRoutes = require('./routes/emailRoutes');
+const emailRoutes = require('./Routes/emailRoutes');
 require('dotenv').config();
 
 const app = express();
